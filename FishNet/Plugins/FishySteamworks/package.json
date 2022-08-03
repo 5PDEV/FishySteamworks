@@ -1,8 +1,9 @@
 {
   "name": "com.firstgeargames.fishysteamworks",
-  "version": "2.0.0",
+  "version": "2.1.2",
   "displayName": "FishySteamworks",
   "description": "A Steamworks implementation for Fish-Net.",
+  "author": "FirstGearGames",
   "unity": "2019.1",
   "unityRelease": "0b5"
 }
