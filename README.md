@@ -1,10 +1,7 @@
 # FishySteamworks
-A Steamworks implementation for Fish-Net.
+A Steamworks implementation for Fish-Networking.
 
 Thank you [Heathen Engineering](https://github.com/sponsors/heathen-engineering) for your support.
-
-This is an improved fork from https://github.com/Chykary/FizzySteamworks.
-
 
 
 ## Dependencies

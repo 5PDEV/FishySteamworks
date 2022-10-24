@@ -11,6 +11,11 @@ namespace FishySteamworks
 {
     public class FishySteamworks : Transport
     {
+        ~FishySteamworks()
+        {
+            Shutdown();
+        }
+
         #region Public.
         /// <summary>
         /// The SteamId for the local user after connecting to or starting the server. This is populated automatically.
@@ -375,7 +380,7 @@ namespace FishySteamworks
         /// Sets which address the server will bind to.
         /// </summary>
         /// <param name="address"></param>
-        public override void SetServerBindAddress(string address)
+        public override void SetServerBindAddress(string address, IPAddressType addressType)
         {
             _serverBindAddress = address;
         }
